@@ -26,7 +26,7 @@
                     </div>
                 </header>
             @endisset
-
+            @include('components.notifications')
             <!-- Page Content -->
             <main>
                 {{ $slot }}
